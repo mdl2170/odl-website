@@ -393,7 +393,7 @@ button:focus {
   font-size: 14px;
   text-align: center;
   border-radius: 4px;
-  background-color: #61D2B4;
+  background-color: #fdb641;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
@@ -409,6 +409,7 @@ button:focus {
   color: #fff;
   overflow: hidden;
   position: relative;
+  min-height: -webkit-fill-available;
 }
 
 #hero-area .overlay {
@@ -422,12 +423,12 @@ button:focus {
 }
 
 #hero-area .contents {
-  padding: 200px 0 130px;
+  padding: 300px 0 130px;
 }
 
 #hero-area .contents h1 {
   color: #fff;
-  font-size: 42px;
+  font-size: 60px;
   font-weight: 700;
   margin-bottom: 25px;
 }
@@ -851,7 +852,7 @@ button:focus {
   height: 48px;
   width: 48px;
   line-height: 48px;
-  color: #61D2B4;
+  color: #fdb641;
   left: 50%;
   margin-left: -24px;
   margin-top: -24px;
@@ -866,12 +867,12 @@ button:focus {
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  border: 1px solid #61D2B4;
+  border: 1px solid #fdb641;
   border-radius: 50%;
 }
 
 .overlay .item-icon:hover {
-  background: #61D2B4;
+  background: #fdb641;
   color: #fff;
 }
 
